@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/most-wasted');
 
 :root {
     --background-grey: #F5F4F4;
@@ -19,13 +20,31 @@ form {
     margin: 0;
 }
 
+.most-wazted {
+    font-family: 'Most Wazted', sans-serif;
+    font-weight: 400;
+}
+
+.main-text {
+    font-size: 48px;
+}
+
 .login-page {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.logo-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 0 1rem;
+    line-height: 20px;
+}
+
 .logo {
+    color: var(--logo-color);
     margin: 0;
     opacity: 0px;
     font-family: Most Wazted;
@@ -59,6 +78,10 @@ form {
     align-items: center;
 }
 
+.container-login > * > *{
+    margin: 1rem 0 1rem 0;
+}
+
 .login-form {
     width: 450px;
 }
@@ -67,6 +90,10 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.welcoming-text > * {
+    margin: 0;
 }
 
 .email-pw-form > input {
