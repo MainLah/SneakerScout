@@ -2,6 +2,7 @@
 @import url('https://fonts.cdnfonts.com/css/most-wasted');
 
 :root {
+    --background-white: #fefdff;
     --background-grey: #F5F4F4;
     --black: #000000;
     --logo-color: #EB4511;
@@ -9,7 +10,7 @@
 }
 
 body {
-    background: var(--background-grey);
+    background: var(--background-white);
     margin: 0;
     padding: 0;
     width: 100vw;
