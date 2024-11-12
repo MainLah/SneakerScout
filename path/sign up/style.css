@@ -27,6 +27,10 @@ a {
     text-decoration: none;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .most-wazted {
     font-family: 'Most Wazted', sans-serif;
     font-weight: 400;
@@ -128,6 +132,10 @@ a {
     font-size: 16px;
     color: var(--background-grey);
     background-color: var(--black);
+}
+
+.sign-in-button:hover {
+    opacity: 0.85;
 }
 
 .remember-me-form {
