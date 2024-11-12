@@ -38,11 +38,49 @@ nav {
     margin: 0;
 }
 
+#search-bar-nav {
+    width: 710px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url(../../img/search-icon.ico);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 2% center;
+    text-indent: 40px;
+}
+
+#search-bar-nav:focus{
+    background-image:none;
+}
+
+#search-bar-nav::placeholder {
+    font-family: "Roboto Slab", serif;
+}
+
 .nav-list {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.nav-items {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.nav-items > a {
+    color: var(--darker-grey);
+    text-decoration: none;
+}
+
+.nav-items > a > i {
+    font-style: normal;
+}
+
+.nav-items > a > i::before {
+    margin: 0 5px;
 }
 
 .most-wazted {
