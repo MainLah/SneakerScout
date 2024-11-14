@@ -8,6 +8,8 @@
     --logo-color: #EB4511;
     --darker-grey: #898989;
     --background-hero: #ededed;
+    --background-product: #C43037;
+
 }
 
 body {
@@ -145,4 +147,37 @@ nav {
 
 .about-us-text > p {
     font-size: 20px;
+}
+
+.new-release-main-text {
+    font-size: 36px;
+    padding: 0 0 0 6rem;
+}
+
+.grid-product {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2rem;
+    padding: 0 5rem 1rem 5rem;
+}
+
+.grid-product-items {
+    background-color: var(--background-product);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.grid-product-items > img {
+    width: 280px;
+}
+
+.product-name {
+    width: 100%;
+    background-color: var(--background-hero);
+}
+
+.product-name > p {
+    text-align: center;
 }
