@@ -14,7 +14,7 @@ body {
     background: var(--background-white);
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     font-family: "Roboto Slab", serif;
 }
@@ -25,6 +25,11 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.most-wazted {
+    font-family: 'Most Wazted', sans-serif;
+    font-weight: 400;
 }
 
 .container-logo {
@@ -121,4 +126,23 @@ nav {
 #wmns-aj3 {
     transform: scaleX(-1) rotate(35deg);
     width: 660px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+}
+
+.about-us-text > * {
+    text-align: center;
+}
+
+#about-us-main {
+    font-size: 64px;
+}
+
+.about-us-text > p {
+    font-size: 20px;
 }
