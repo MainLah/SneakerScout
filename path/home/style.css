@@ -9,7 +9,7 @@
     --darker-grey: #898989;
     --background-hero: #ededed;
     --background-product: #C43037;
-
+    --background-footer: #3E3E3E;
 }
 
 body {
@@ -39,7 +39,7 @@ nav {
     line-height: 20px;
 }
 
-.container-logo > h1 {
+.container-logo > h1, .footer-information > h1 {
     text-align: center;
     color: var(--logo-color);
     margin: 0;
@@ -208,4 +208,14 @@ nav {
 
 .product-name > p {
     text-align: center;
+}
+
+footer {
+    background-color: var(--background-footer);
+    display: flex;
+    flex-direction: column;
+}
+
+footer > *:not(.most-wazted) {
+    color: var(--background-white);
 }
