@@ -149,6 +149,10 @@ nav {
     font-size: 20px;
 }
 
+.new-releases {
+    padding: 0 0 5rem 0;
+}
+
 .new-release-main-text {
     font-size: 36px;
     padding: 0 0 0 6rem;
